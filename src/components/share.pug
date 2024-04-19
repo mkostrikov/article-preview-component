@@ -1,0 +1,8 @@
+- let list = ['facebook', 'x', 'pinterest'];
+    div.share
+        p.share__title share
+        ul.share__list
+            each val in list
+                li.share__item
+                    a.share__link(aria-label=`go to ${val}`)
+                - n += 1;

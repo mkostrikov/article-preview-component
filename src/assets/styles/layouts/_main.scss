@@ -1,0 +1,8 @@
+.main {
+  inline-size: 100vw;
+  min-block-size: 100dvh;
+  display: grid;
+  place-items: center;
+  padding: 0 2.4rem;
+  background-color: var(--main-bg);
+}
